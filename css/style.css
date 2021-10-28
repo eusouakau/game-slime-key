@@ -1,0 +1,22 @@
+*{
+  /**uniformizar a forma que os navegadores renderizam a tela do jogo*/
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+    background-color: #ccff00;
+}
+/**definindo font*/
+@font-face {
+    font-family: Arial;
+    src: url();
+}
+
+/** deixando a gambiarra invisível p.s. não tá elegante, mas funciona k*/
+.gambs{
+  font-family: Arial;
+  visibility: hidden;
+  position: absolute;
+}
